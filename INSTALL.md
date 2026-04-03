@@ -62,7 +62,7 @@ sh bash run_pos_chunk_morph_models_for_hindi.sh Input_Folder Features_Folder Out
 ````
 
 ## then follow clause boundary installation steps
-[CLause boundary README](path)
+[CLause boundary README](https://github.com/nagaraju291990/Hindi-Shallow-Pasrser-Pipeline/blob/main/cb_hindi_model/README.md)
 
 ## to run full pipeline
 python3 run_shallow_parser.py <input_dir> <output_dir>
