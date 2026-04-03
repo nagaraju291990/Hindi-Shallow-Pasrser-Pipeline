@@ -1,0 +1,454 @@
+1	aBAgApana		<fs af='aBAgApana,n,m,sg,3,d,0,0'>
+2	aBAgepana		<fs af='aBAgApana,n,m,sg,3,o,0,0'>
+3	acCAburA		<fs af='acCAburA,adj,m,sg,,d,,'>|<fs af='acCAburA,n,m,sg,3,d,0,0'>
+4	acCAKAsA		<fs af='acCAKAsA,adj,m,sg,,d,,'>|<fs af='acCAKAsA,n,m,sg,3,d,0,0'>
+5	acCApana		<fs af='acCApana,n,m,sg,3,d,0,0'>
+6	acCebure		<fs af='acCAburA,adj,m,sg,,o,,'>|<fs af='acCAburA,adj,m,pl,,d,,'>|<fs af='acCAburA,adj,m,pl,,o,,'>|<fs af='acCAburA,n,m,pl,3,d,0,0'>|<fs af='acCAburA,n,m,sg,3,o,0,0'>
+7	acCeburoM		<fs af='acCAburA,n,m,pl,3,o,0,0'>
+8	acCeKAse		<fs af='acCAKAsA,adj,m,sg,,o,,'>|<fs af='acCAKAsA,adj,m,pl,,d,,'>|<fs af='acCAKAsA,adj,m,pl,,o,,'>|<fs af='acCAKAsA,n,m,pl,3,d,0,0'>|<fs af='acCAKAsA,n,m,sg,3,o,0,0'>
+9	acCeKAsoM		<fs af='acCAKAsA,n,m,pl,3,o,0,0'>
+10	acCepana		<fs af='acCApana,n,m,sg,3,o,0,0'>
+11	aCUwApana		<fs af='aCUwApana,n,m,sg,3,d,0,0'>
+12	aCUwepana		<fs af='aCUwApana,n,m,sg,3,o,0,0'>
+13	adZApana		<fs af='adZApana,n,m,sg,3,d,0,0'>
+14	AdZApana		<fs af='AdZApana,n,m,sg,3,d,0,0'>
+15	adZepana		<fs af='adZApana,n,m,sg,3,o,0,0'>
+16	AdZepana		<fs af='AdZApana,n,m,sg,3,o,0,0'>
+17	agalApana		<fs af='agalApana,n,m,sg,3,d,0,0'>
+18	agalepana		<fs af='agalApana,n,m,sg,3,o,0,0'>
+19	akarApana		<fs af='akarApana,n,m,sg,3,d,0,0'>
+20	akarepana		<fs af='akarApana,n,m,sg,3,o,0,0'>
+21	akelApana		<fs af='akelApana,n,m,sg,3,d,0,0'>
+22	akelepana		<fs af='akelApana,n,m,sg,3,o,0,0'>
+23	alabelApana		<fs af='alabelApana,n,m,sg,3,d,0,0'>
+24	alabelepana		<fs af='alabelApana,n,m,sg,3,o,0,0'>
+25	AlApana		<fs af='AlApana,n,m,sg,3,d,0,0'>
+26	AlApana		<fs af='AlApana,n,m,sg,3,d,0,0'>
+27	Alepana		<fs af='AlApana,n,m,sg,3,o,0,0'>
+28	Alepana		<fs af='AlApana,n,m,sg,3,o,0,0'>
+29	aMXApana		<fs af='aMXApana,n,m,sg,3,d,0,0'>
+30	aMXApana		<fs af='aMXApana,n,m,sg,3,d,0,0'>
+31	aMXepana		<fs af='aMXApana,n,m,sg,3,o,0,0'>
+32	aMXepana		<fs af='aMXApana,n,m,sg,3,o,0,0'>
+33	anaBarApana		<fs af='anaBarApana,n,m,sg,3,d,0,0'>
+34	anaBarepana		<fs af='anaBarApana,n,m,sg,3,o,0,0'>
+35	anabasApana		<fs af='anabasApana,n,m,sg,3,d,0,0'>
+36	anabasepana		<fs af='anabasApana,n,m,sg,3,o,0,0'>
+37	anabiMXApana		<fs af='anabiMXApana,n,m,sg,3,d,0,0'>
+38	anabiMXepana		<fs af='anabiMXApana,n,m,sg,3,o,0,0'>
+39	anabyAhApana		<fs af='anabyAhApana,n,m,sg,3,d,0,0'>
+40	anabyAhepana		<fs af='anabyAhApana,n,m,sg,3,o,0,0'>
+41	anaCixApana		<fs af='anaCixApana,n,m,sg,3,d,0,0'>
+42	anaCixepana		<fs af='anaCixApana,n,m,sg,3,o,0,0'>
+43	anajAnapana		<fs af='anajAnapana,n,m,sg,3,d,0,0'>
+44	anajAnApana		<fs af='anajAnApana,n,m,sg,3,d,0,0'>
+45	anajAnepana		<fs af='anajAnApana,n,m,sg,3,o,0,0'>
+46	anajepana		<fs af='anajAnapana,n,m,sg,3,o,0,0'>
+47	analagApana		<fs af='analagApana,n,m,sg,3,d,0,0'>
+48	analagepana		<fs af='analagApana,n,m,sg,3,o,0,0'>
+49	anamanApana		<fs af='anamanApana,n,m,sg,3,d,0,0'>
+50	anamanepana		<fs af='anamanApana,n,m,sg,3,o,0,0'>
+51	anaMgApana		<fs af='anaMgApana,n,m,sg,3,d,0,0'>
+52	anaMgepana		<fs af='anaMgApana,n,m,sg,3,o,0,0'>
+53	anasunApana		<fs af='anasunApana,n,m,sg,3,d,0,0'>
+54	anasunepana		<fs af='anasunApana,n,m,sg,3,o,0,0'>
+55	anatikApana		<fs af='anatikApana,n,m,sg,3,d,0,0'>
+56	anatikepana		<fs af='anatikApana,n,m,sg,3,o,0,0'>
+57	anaxeKApana		<fs af='anaxeKApana,n,m,sg,3,d,0,0'>
+58	anaxeKepana		<fs af='anaxeKApana,n,m,sg,3,o,0,0'>
+59	anoKApana		<fs af='anoKApana,n,m,sg,3,d,0,0'>
+60	anoKepana		<fs af='anoKApana,n,m,sg,3,o,0,0'>
+61	anUTApana		<fs af='anUTApana,n,m,sg,3,d,0,0'>
+62	anUTApana		<fs af='anUTApana,n,m,sg,3,d,0,0'>
+63	anUTepana		<fs af='anUTApana,n,m,sg,3,o,0,0'>
+64	anUTepana		<fs af='anUTApana,n,m,sg,3,o,0,0'>
+65	anXApana		<fs af='anXApana,n,m,sg,3,d,0,0'>
+66	anXepana		<fs af='anXApana,n,m,sg,3,o,0,0'>
+67	apanApana		<fs af='apanApana,n,m,sg,3,d,0,0'>
+68	apanepana		<fs af='apanApana,n,m,sg,3,o,0,0'>
+69	apatApana		<fs af='apatApana,n,m,sg,3,d,0,0'>
+70	apatepana		<fs af='apatApana,n,m,sg,3,o,0,0'>
+71	atakApana		<fs af='atakApana,n,m,sg,3,d,0,0'>
+72	atakepana		<fs af='atakApana,n,m,sg,3,o,0,0'>
+73	atapatApana		<fs af='atapatApana,n,m,sg,3,d,0,0'>
+74	atapatepana		<fs af='atapatApana,n,m,sg,3,o,0,0'>
+75	aXnaMgApana		<fs af='aXnaMgApana,n,m,sg,3,d,0,0'>
+76	aXnaMgepana		<fs af='aXnaMgApana,n,m,sg,3,o,0,0'>
+77	aXUrApana		<fs af='aXUrApana,n,m,sg,3,d,0,0'>
+78	aXUrepana		<fs af='aXUrApana,n,m,sg,3,o,0,0'>
+79	bacakAnApana		<fs af='bacakAnApana,n,m,sg,3,d,0,0'>
+80	bacakAnepana		<fs af='bacakAnApana,n,m,sg,3,o,0,0'>
+81	bacAKucA		<fs af='bacAKucA,adj,m,sg,,d,,'>|<fs af='bacAKucA,n,m,sg,3,d,0,0'>
+82	baccApana		<fs af='baccApana,n,m,sg,3,d,0,0'>
+83	baccepana		<fs af='baccApana,n,m,sg,3,o,0,0'>
+84	baceKuce		<fs af='bacAKucA,adj,m,sg,,o,,'>|<fs af='bacAKucA,adj,m,pl,,d,,'>|<fs af='bacAKucA,adj,m,pl,,o,,'>|<fs af='bacAKucA,n,m,pl,3,d,0,0'>|<fs af='bacAKucA,n,m,sg,3,o,0,0'>
+85	baceKucoM		<fs af='bacAKucA,n,m,pl,3,o,0,0'>
+86	badZApana		<fs af='badZApana,n,m,sg,3,d,0,0'>
+87	badZepana		<fs af='badZApana,n,m,sg,3,o,0,0'>
+88	baharApana		<fs af='baharApana,n,m,sg,3,d,0,0'>
+89	baharepana		<fs af='baharApana,n,m,sg,3,o,0,0'>
+90	BaxxApana		<fs af='BaxxApana,n,m,sg,3,d,0,0'>
+91	Baxxepana		<fs af='BaxxApana,n,m,sg,3,o,0,0'>
+92	beDaMgApana		<fs af='beDaMgApana,n,m,sg,3,d,0,0'>
+93	beDaMgepana		<fs af='beDaMgApana,n,m,sg,3,o,0,0'>
+94	begAnApana		<fs af='begAnApana,n,m,sg,3,d,0,0'>
+95	begAnepana		<fs af='begAnApana,n,m,sg,3,o,0,0'>
+96	besurApana		<fs af='besurApana,n,m,sg,3,d,0,0'>
+97	besurepana		<fs af='besurApana,n,m,sg,3,o,0,0'>
+98	bIwApana		<fs af='bIwApana,n,m,sg,3,d,0,0'>
+99	bIwepana		<fs af='bIwApana,n,m,sg,3,o,0,0'>
+100	BolABAlA		<fs af='BolABAlA,adj,m,sg,,d,,'>|<fs af='BolABAlA,n,m,sg,3,d,0,0'>
+101	BolApana		<fs af='BolApana,n,m,sg,3,d,0,0'>
+102	BoleBAle		<fs af='BolABAlA,adj,m,sg,,o,,'>|<fs af='BolABAlA,adj,m,pl,,d,,'>|<fs af='BolABAlA,adj,m,pl,,o,,'>|<fs af='BolABAlA,n,m,pl,3,d,0,0'>|<fs af='BolABAlA,n,m,sg,3,o,0,0'>
+103	BoleBAloM		<fs af='BolABAlA,n,m,pl,3,o,0,0'>
+104	Bolepana		<fs af='BolApana,n,m,sg,3,o,0,0'>
+105	BoWarApana		<fs af='BoWarApana,n,m,sg,3,d,0,0'>
+106	BoWarepana		<fs af='BoWarApana,n,m,sg,3,o,0,0'>
+107	boxApana		<fs af='boxApana,n,m,sg,3,d,0,0'>
+108	BoxApana		<fs af='BoxApana,n,m,sg,3,d,0,0'>
+109	boxepana		<fs af='boxApana,n,m,sg,3,o,0,0'>
+110	Boxepana		<fs af='BoxApana,n,m,sg,3,o,0,0'>
+111	CakkApana		<fs af='CakkApana,n,m,sg,3,d,0,0'>
+112	Cakkepana		<fs af='CakkApana,n,m,sg,3,o,0,0'>
+113	camakIlApana		<fs af='camakIlApana,n,m,sg,3,d,0,0'>
+114	camakIlepana		<fs af='camakIlApana,n,m,sg,3,o,0,0'>
+115	catorApana		<fs af='catorApana,n,m,sg,3,d,0,0'>
+116	catorepana		<fs af='catorApana,n,m,sg,3,o,0,0'>
+117	CElApana		<fs af='CElApana,n,m,sg,3,d,0,0'>
+118	CElepana		<fs af='CElApana,n,m,sg,3,o,0,0'>
+119	CiCorApana		<fs af='CiCorApana,n,m,sg,3,d,0,0'>
+120	CiCorepana		<fs af='CiCorApana,n,m,sg,3,o,0,0'>
+121	cidacidApana		<fs af='cidacidApana,n,m,sg,3,d,0,0'>
+122	cidacidepana		<fs af='cidacidApana,n,m,sg,3,o,0,0'>
+123	cidZacidZApana		<fs af='cidZacidZApana,n,m,sg,3,d,0,0'>
+124	cidZacidZepana		<fs af='cidZacidZApana,n,m,sg,3,o,0,0'>
+125	cikanApana		<fs af='cikanApana,n,m,sg,3,d,0,0'>
+126	cikanepana		<fs af='cikanApana,n,m,sg,3,o,0,0'>
+127	cilabilApana		<fs af='cilabilApana,n,m,sg,3,d,0,0'>
+128	cilabilepana		<fs af='cilabilApana,n,m,sg,3,o,0,0'>
+129	CilakAvAlA		<fs af='CilakAvAlA,adj,m,sg,,d,,'>|<fs af='CilakAvAlA,n,m,sg,3,d,0,0'>
+130	CilakevAle		<fs af='CilakAvAlA,adj,m,sg,,o,,'>|<fs af='CilakAvAlA,adj,m,pl,,d,,'>|<fs af='CilakAvAlA,adj,m,pl,,o,,'>|<fs af='CilakAvAlA,n,m,pl,3,d,0,0'>|<fs af='CilakAvAlA,n,m,sg,3,o,0,0'>
+131	CilakevAloM		<fs af='CilakAvAlA,n,m,pl,3,o,0,0'>
+132	cipacipApana		<fs af='cipacipApana,n,m,sg,3,d,0,0'>
+133	cipacipepana		<fs af='cipacipApana,n,m,sg,3,o,0,0'>
+134	CotApana		<fs af='CotApana,n,m,sg,3,d,0,0'>
+135	Cotepana		<fs af='CotApana,n,m,sg,3,o,0,0'>
+136	cOWApana		<fs af='cOWApana,n,m,sg,3,d,0,0'>
+137	cOWepana		<fs af='cOWApana,n,m,sg,3,o,0,0'>
+138	culabulApana		<fs af='culabulApana,n,m,sg,3,d,0,0'>
+139	culabulepana		<fs af='culabulApana,n,m,sg,3,o,0,0'>
+140	curacurApana		<fs af='curacurApana,n,m,sg,3,d,0,0'>
+141	curacurepana		<fs af='curacurApana,n,m,sg,3,o,0,0'>
+142	curamurApana		<fs af='curamurApana,n,m,sg,3,d,0,0'>
+143	curamurepana		<fs af='curamurApana,n,m,sg,3,o,0,0'>
+144	DIlApana		<fs af='DIlApana,n,m,sg,3,d,0,0'>
+145	DIlepana		<fs af='DIlApana,n,m,sg,3,o,0,0'>
+146	ekkAxukkA		<fs af='ekkAxukkA,adj,m,sg,,d,,'>|<fs af='ekkAxukkA,n,m,sg,3,d,0,0'>
+147	ekkexukke		<fs af='ekkAxukkA,adj,m,sg,,o,,'>|<fs af='ekkAxukkA,adj,m,pl,,d,,'>|<fs af='ekkAxukkA,adj,m,pl,,o,,'>|<fs af='ekkAxukkA,n,m,pl,3,d,0,0'>|<fs af='ekkAxukkA,n,m,sg,3,o,0,0'>
+148	ekkexukkoM		<fs af='ekkAxukkA,n,m,pl,3,o,0,0'>
+149	EsAvEsA		<fs af='EsAvEsA,adj,m,sg,,d,,'>|<fs af='EsAvEsA,n,m,sg,3,d,0,0'>
+150	EsevEse		<fs af='EsAvEsA,adj,m,sg,,o,,'>|<fs af='EsAvEsA,adj,m,pl,,d,,'>|<fs af='EsAvEsA,adj,m,pl,,o,,'>|<fs af='EsAvEsA,n,m,pl,3,d,0,0'>|<fs af='EsAvEsA,n,m,sg,3,o,0,0'>
+151	EsevEsoM		<fs af='EsAvEsA,n,m,pl,3,o,0,0'>
+152	gADZApana		<fs af='gADZApana,n,m,sg,3,d,0,0'>
+153	gADZepana		<fs af='gADZApana,n,m,sg,3,o,0,0'>
+154	gaharApana		<fs af='gaharApana,n,m,sg,3,d,0,0'>
+155	gaharepana		<fs af='gaharApana,n,m,sg,3,o,0,0'>
+156	gaMjApana		<fs af='gaMjApana,n,m,sg,3,d,0,0'>
+157	gaMjepana		<fs af='gaMjApana,n,m,sg,3,o,0,0'>
+158	gaMxApana		<fs af='gaMxApana,n,m,sg,3,d,0,0'>
+159	gaMxepana		<fs af='gaMxApana,n,m,sg,3,o,0,0'>
+160	GanApana		<fs af='GanApana,n,m,sg,3,d,0,0'>
+161	Ganepana		<fs af='GanApana,n,m,sg,3,o,0,0'>
+162	GatiyApana		<fs af='GatiyApana,n,m,sg,3,d,0,0'>
+163	Gatiyepana		<fs af='GatiyApana,n,m,sg,3,o,0,0'>
+164	gaXApana		<fs af='gaXApana,n,m,sg,3,d,0,0'>
+165	gaXepana		<fs af='gaXApana,n,m,sg,3,o,0,0'>
+166	gayAbIwA		<fs af='gayAbIwA,adj,m,sg,,d,,'>|<fs af='gayAbIwA,n,m,sg,3,d,0,0'>
+167	gayApana		<fs af='gayApana,n,m,sg,3,d,0,0'>
+168	gayebIwe		<fs af='gayAbIwA,adj,m,sg,,o,,'>|<fs af='gayAbIwA,adj,m,pl,,d,,'>|<fs af='gayAbIwA,adj,m,pl,,o,,'>|<fs af='gayAbIwA,n,m,pl,3,d,0,0'>|<fs af='gayAbIwA,n,m,sg,3,o,0,0'>
+169	gayebIwoM		<fs af='gayAbIwA,n,m,pl,3,o,0,0'>
+170	gayepana		<fs af='gayApana,n,m,sg,3,o,0,0'>
+171	gIlApana		<fs af='gIlApana,n,m,sg,3,d,0,0'>
+172	gIlepana		<fs af='gIlApana,n,m,sg,3,o,0,0'>
+173	golApana		<fs af='golApana,n,m,sg,3,d,0,0'>
+174	golepana		<fs af='golApana,n,m,sg,3,o,0,0'>
+175	gorAcittA		<fs af='gorAcittA,adj,m,sg,,d,,'>|<fs af='gorAcittA,n,m,sg,3,d,0,0'>
+176	gorApana		<fs af='gorApana,n,m,sg,3,d,0,0'>
+177	gorecitte		<fs af='gorAcittA,adj,m,sg,,o,,'>|<fs af='gorAcittA,adj,m,pl,,d,,'>|<fs af='gorAcittA,adj,m,pl,,o,,'>|<fs af='gorAcittA,n,m,pl,3,d,0,0'>|<fs af='gorAcittA,n,m,sg,3,o,0,0'>
+178	gorecittoM		<fs af='gorAcittA,n,m,pl,3,o,0,0'>
+179	gorepana		<fs af='gorApana,n,m,sg,3,o,0,0'>
+180	guMdApana		<fs af='guMdApana,n,m,sg,3,d,0,0'>
+181	guMdepana		<fs af='guMdApana,n,m,sg,3,o,0,0'>
+182	gUMgApana		<fs af='gUMgApana,n,m,sg,3,d,0,0'>
+183	gUMgepana		<fs af='gUMgApana,n,m,sg,3,o,0,0'>
+184	gUzgApana		<fs af='gUzgApana,n,m,sg,3,d,0,0'>
+185	gUzgepana		<fs af='gUzgApana,n,m,sg,3,o,0,0'>
+186	halakApana		<fs af='halakApana,n,m,sg,3,d,0,0'>
+187	halakepana		<fs af='halakApana,n,m,sg,3,o,0,0'>
+188	halkApana		<fs af='halkApana,n,m,sg,3,d,0,0'>
+189	halkepana		<fs af='halkApana,n,m,sg,3,o,0,0'>
+190	harApana		<fs af='harApana,n,m,sg,3,d,0,0'>|<fs af='harApana,n,m,pl,3,d,0,0'>|<fs af='harApana,n,m,sg,3,o,0,0'>|<fs af='harApana,n,m,pl,3,o,0,0'>
+191	harepana		<fs af='harApana,n,m,sg,3,o,0,0'>
+192	haTIlApana		<fs af='haTIlApana,n,m,sg,3,d,0,0'>
+193	haTIlepana		<fs af='haTIlApana,n,m,sg,3,o,0,0'>
+194	hattAkattA		<fs af='hattAkattA,adj,m,sg,,d,,'>|<fs af='hattAkattA,n,m,sg,3,d,0,0'>
+195	hattekatte		<fs af='hattAkattA,adj,m,sg,,o,,'>|<fs af='hattAkattA,adj,m,pl,,d,,'>|<fs af='hattAkattA,adj,m,pl,,o,,'>|<fs af='hattAkattA,n,m,pl,3,d,0,0'>|<fs af='hattAkattA,n,m,sg,3,o,0,0'>
+196	hattekattoM		<fs af='hattAkattA,n,m,pl,3,o,0,0'>
+197	hijadZApana		<fs af='hijadZApana,n,m,sg,3,d,0,0'>
+198	hijadZepana		<fs af='hijadZApana,n,m,sg,3,o,0,0'>
+199	jAnAmAnA		<fs af='jAnAmAnA,adj,m,sg,,d,,'>|<fs af='jAnAmAnA,n,m,sg,3,d,0,0'>
+200	jAnemAne		<fs af='jAnAmAnA,adj,m,sg,,o,,'>|<fs af='jAnAmAnA,adj,m,pl,,d,,'>|<fs af='jAnAmAnA,adj,m,pl,,o,,'>|<fs af='jAnAmAnA,n,m,pl,3,d,0,0'>|<fs af='jAnAmAnA,n,m,sg,3,o,0,0'>
+201	jAnemAnoM		<fs af='jAnAmAnA,n,m,pl,3,o,0,0'>
+202	jUnApana		<fs af='jUnApana,n,m,sg,3,d,0,0'>
+203	jUnepana		<fs af='jUnApana,n,m,sg,3,o,0,0'>
+204	jZanaKZApana		<fs af='jZanaKZApana,n,m,sg,3,d,0,0'>
+205	jZanaKZepana		<fs af='jZanaKZApana,n,m,sg,3,o,0,0'>
+206	kaccApana		<fs af='kaccApana,n,m,sg,3,d,0,0'>
+207	kaccepana		<fs af='kaccApana,n,m,sg,3,o,0,0'>
+208	kadavApana		<fs af='kadavApana,n,m,sg,3,d,0,0'>
+209	kadavepana		<fs af='kadavApana,n,m,sg,3,o,0,0'>
+210	kadZApana		<fs af='kadZApana,n,m,sg,3,d,0,0'>
+211	kadZavApana		<fs af='kadZavApana,n,m,sg,3,d,0,0'>
+212	kadZavepana		<fs af='kadZavApana,n,m,sg,3,o,0,0'>
+213	kadZepana		<fs af='kadZApana,n,m,sg,3,o,0,0'>
+214	kadZuApana		<fs af='kadZuApana,n,m,sg,3,d,0,0'>
+215	kadZuepana		<fs af='kadZuApana,n,m,sg,3,o,0,0'>
+216	kadZuvApana		<fs af='kadZuvApana,n,m,sg,3,d,0,0'>
+217	kadZuvepana		<fs af='kadZuvApana,n,m,sg,3,o,0,0'>
+218	kAiyAzpana		<fs af='kAiyAzpana,n,m,sg,3,d,0,0'>
+219	kAiyezpana		<fs af='kAiyAzpana,n,m,sg,3,o,0,0'>
+220	kAlAkalUtA		<fs af='kAlAkalUtA,adj,m,sg,,d,,'>|<fs af='kAlAkalUtA,n,m,sg,3,d,0,0'>
+221	kAlApana		<fs af='kAlApana,n,m,sg,3,d,0,0'>
+222	kAlekalUte		<fs af='kAlAkalUtA,adj,m,sg,,o,,'>|<fs af='kAlAkalUtA,adj,m,pl,,d,,'>|<fs af='kAlAkalUtA,adj,m,pl,,o,,'>|<fs af='kAlAkalUtA,n,m,pl,3,d,0,0'>|<fs af='kAlAkalUtA,n,m,sg,3,o,0,0'>
+223	kAlekalUtoM		<fs af='kAlAkalUtA,n,m,pl,3,o,0,0'>
+224	kAlepana		<fs af='kAlApana,n,m,sg,3,o,0,0'>
+225	kamInApana		<fs af='kamInApana,n,m,sg,3,d,0,0'>|<fs af='kamInApana,n,m,pl,3,d,0,0'>|<fs af='kamInApana,n,m,sg,3,o,0,0'>|<fs af='kamInApana,n,m,pl,3,o,0,0'>
+226	kamInepana		<fs af='kamInApana,n,m,sg,3,o,0,0'>
+227	kaMkadZIlApana		<fs af='kaMkadZIlApana,n,m,sg,3,d,0,0'>
+228	kaMkadZIlepana		<fs af='kaMkadZIlApana,n,m,sg,3,o,0,0'>
+229	KarApana		<fs af='KarApana,n,m,sg,3,d,0,0'>
+230	KarcIlApana		<fs af='KarcIlApana,n,m,sg,3,d,0,0'>
+231	KarcIlepana		<fs af='KarcIlApana,n,m,sg,3,o,0,0'>
+232	Karepana		<fs af='KarApana,n,m,sg,3,o,0,0'>
+233	KattApana		<fs af='KattApana,n,m,sg,3,d,0,0'>
+234	Kattepana		<fs af='KattApana,n,m,sg,3,o,0,0'>
+235	kazkadZIlApana		<fs af='kazkadZIlApana,n,m,sg,3,d,0,0'>
+236	kazkadZIlepana		<fs af='kazkadZIlApana,n,m,sg,3,o,0,0'>
+237	KoKalApana		<fs af='KoKalApana,n,m,sg,3,d,0,0'>
+238	KoKalepana		<fs af='KoKalApana,n,m,sg,3,o,0,0'>
+239	KotApana		<fs af='KotApana,n,m,sg,3,d,0,0'>
+240	Kotepana		<fs af='KotApana,n,m,sg,3,o,0,0'>
+241	KoyApana		<fs af='KoyApana,n,m,sg,3,d,0,0'>
+242	Koyepana		<fs af='KoyApana,n,m,sg,3,o,0,0'>
+243	KulApana		<fs af='KulApana,n,m,sg,3,d,0,0'>
+244	Kulepana		<fs af='KulApana,n,m,sg,3,o,0,0'>
+245	KuraKurApana		<fs af='KuraKurApana,n,m,sg,3,d,0,0'>
+246	KuraKurepana		<fs af='KuraKurApana,n,m,sg,3,o,0,0'>
+247	KuraxarApana		<fs af='KuraxarApana,n,m,sg,3,d,0,0'>
+248	Kuraxarepana		<fs af='KuraxarApana,n,m,sg,3,o,0,0'>
+249	KuraxurApana		<fs af='KuraxurApana,n,m,sg,3,d,0,0'>
+250	Kuraxurepana		<fs af='KuraxurApana,n,m,sg,3,o,0,0'>
+251	kutanApana		<fs af='kutanApana,n,m,sg,3,d,0,0'>
+252	kutanepana		<fs af='kutanApana,n,m,sg,3,o,0,0'>
+253	kuzArApana		<fs af='kuzArApana,n,m,sg,3,d,0,0'>
+254	kuzArepana		<fs af='kuzArApana,n,m,sg,3,o,0,0'>
+255	kuzvArApana		<fs af='kuzvArApana,n,m,sg,3,d,0,0'>
+256	kuzvArepana		<fs af='kuzvArApana,n,m,sg,3,o,0,0'>
+257	lacIlApana		<fs af='lacIlApana,n,m,sg,3,d,0,0'>
+258	lacIlepana		<fs af='lacIlApana,n,m,sg,3,o,0,0'>
+259	ladakApana		<fs af='ladakApana,n,m,sg,3,d,0,0'>|<fs af='ladakApana,n,m,pl,3,d,0,0'>|<fs af='ladakApana,n,m,sg,3,o,0,0'>
+260	ladakepana		<fs af='ladakApana,n,m,sg,3,o,0,0'>
+261	ladZakApana		<fs af='ladZakApana,n,m,sg,,d,0,0'>|<fs af='ladZakApana,n,m,pl,,d,0,0'>|<fs af='ladZakApana,n,m,sg,,o,0,0'>
+262	ladZakepana		<fs af='ladZakApana,n,m,sg,3,o,0,0'>
+263	lajIlApana		<fs af='lajIlApana,n,m,sg,3,d,0,0'>
+264	lajIlepana		<fs af='lajIlApana,n,m,sg,3,o,0,0'>
+265	laMgadZApana		<fs af='laMgadZApana,n,m,sg,3,d,0,0'>
+266	laMgadZepana		<fs af='laMgadZApana,n,m,sg,3,o,0,0'>
+267	lasalasApana		<fs af='lasalasApana,n,m,sg,3,d,0,0'>|<fs af='lasalasApana,n,m,pl,3,d,0,0'>|<fs af='lasalasApana,n,m,sg,3,o,0,0'>|<fs af='lasalasApana,n,m,pl,3,o,0,0'>
+268	lasalasepana		<fs af='lasalasApana,n,m,sg,3,o,0,0'>
+269	lasIlApana		<fs af='lasIlApana,n,m,sg,3,d,0,0'>
+270	lasIlepana		<fs af='lasIlApana,n,m,sg,3,o,0,0'>
+271	lazgadZApana		<fs af='lazgadZApana,n,m,sg,3,d,0,0'>
+272	lazgadZepana		<fs af='lazgadZApana,n,m,sg,3,o,0,0'>
+273	luccApana		<fs af='luccApana,n,m,sg,3,d,0,0'>
+274	luccepana		<fs af='luccApana,n,m,sg,3,o,0,0'>
+275	lUlApana		<fs af='lUlApana,n,m,sg,3,d,0,0'>
+276	lUlepana		<fs af='lUlApana,n,m,sg,3,o,0,0'>
+277	luterApana		<fs af='luterApana,n,m,sg,3,d,0,0'>
+278	luterepana		<fs af='luterApana,n,m,sg,3,o,0,0'>
+279	mahazgApana		<fs af='mahazgApana,n,m,sg,3,d,0,0'>
+280	mahazgepana		<fs af='mahazgApana,n,m,sg,3,o,0,0'>
+281	mawavAlApana		<fs af='mawavAlApana,n,m,sg,3,d,0,0'>
+282	mawavAlepana		<fs af='mawavAlApana,n,m,sg,3,o,0,0'>
+283	mElApana		<fs af='mElApana,n,m,sg,3,d,0,0'>
+284	mElepana		<fs af='mElApana,n,m,sg,3,o,0,0'>
+285	milAjulA		<fs af='milAjulA,adj,m,sg,,d,,'>|<fs af='milAjulA,n,m,sg,3,d,0,0'>
+286	milejule		<fs af='milAjulA,adj,m,sg,,o,,'>|<fs af='milAjulA,adj,m,pl,,d,,'>|<fs af='milAjulA,adj,m,pl,,o,,'>|<fs af='milAjulA,n,m,pl,3,d,0,0'>|<fs af='milAjulA,n,m,sg,3,o,0,0'>
+287	milejuloM		<fs af='milAjulA,n,m,pl,3,o,0,0'>
+288	mITApana		<fs af='mITApana,n,m,sg,3,d,0,0'>
+289	mITepana		<fs af='mITApana,n,m,sg,3,o,0,0'>
+290	motApana		<fs af='motApana,n,m,sg,3,d,0,0'>
+291	motAwagadZA		<fs af='motAwagadZA,adj,m,sg,,d,,'>|<fs af='motAwagadZA,n,m,sg,3,d,0,0'>
+292	motAwAjA		<fs af='motAwAjA,adj,m,sg,,d,,'>|<fs af='motAwAjA,n,m,sg,3,d,0,0'>
+293	motAwAjZA		<fs af='motAwAjZA,adj,m,sg,,d,,'>|<fs af='motAwAjZA,n,m,sg,3,d,0,0'>
+294	motepana		<fs af='motApana,n,m,sg,3,o,0,0'>
+295	motewagadZe		<fs af='motAwagadZA,adj,m,sg,,o,,'>|<fs af='motAwagadZA,adj,m,pl,,d,,'>|<fs af='motAwagadZA,adj,m,pl,,o,,'>|<fs af='motAwagadZA,n,m,pl,3,d,0,0'>|<fs af='motAwagadZA,n,m,sg,3,o,0,0'>
+296	motewagadZoM		<fs af='motAwagadZA,n,m,pl,3,o,0,0'>
+297	motewAje		<fs af='motAwAjA,adj,m,sg,,o,,'>|<fs af='motAwAjA,adj,m,pl,,d,,'>|<fs af='motAwAjA,adj,m,pl,,o,,'>|<fs af='motAwAjA,n,m,pl,3,d,0,0'>|<fs af='motAwAjA,n,m,sg,3,o,0,0'>
+298	motewAjoM		<fs af='motAwAjA,n,m,pl,3,o,0,0'>
+299	motewAjZe		<fs af='motAwAjZA,adj,m,sg,,o,,'>|<fs af='motAwAjZA,adj,m,pl,,d,,'>|<fs af='motAwAjZA,adj,m,pl,,o,,'>|<fs af='motAwAjZA,n,m,pl,3,d,0,0'>|<fs af='motAwAjZA,n,m,sg,3,o,0,0'>
+300	motewAjZoM		<fs af='motAwAjZA,n,m,pl,3,o,0,0'>
+301	naMgApana		<fs af='naMgApana,n,m,sg,3,d,0,0'>
+302	naMgepana		<fs af='naMgApana,n,m,sg,3,o,0,0'>
+303	naSIlApana		<fs af='naSIlApana,n,m,sg,3,d,0,0'>
+304	naSIlepana		<fs af='naSIlApana,n,m,sg,3,o,0,0'>
+305	nayApana		<fs af='nayApana,n,m,sg,3,d,0,0'>
+306	nayepana		<fs af='nayApana,n,m,sg,3,o,0,0'>
+307	nikammApana		<fs af='nikammApana,n,m,sg,3,d,0,0'>
+308	nikammepana		<fs af='nikammApana,n,m,sg,3,o,0,0'>
+309	nIlApana		<fs af='nIlApana,n,m,sg,3,d,0,0'>
+310	nIlepana		<fs af='nIlApana,n,m,sg,3,o,0,0'>
+311	nirAlApana		<fs af='nirAlApana,n,m,sg,3,d,0,0'>
+312	nirAlepana		<fs af='nirAlApana,n,m,sg,3,o,0,0'>
+313	niTallApana		<fs af='niTallApana,n,m,sg,3,d,0,0'>
+314	niTallepana		<fs af='niTallApana,n,m,sg,3,o,0,0'>
+315	nOsiKiyApana		<fs af='nOsiKiyApana,n,m,sg,3,d,0,0'>
+316	nOsiKiyepana		<fs af='nOsiKiyApana,n,m,sg,3,o,0,0'>
+317	oCApana		<fs af='oCApana,n,m,sg,3,d,0,0'>
+318	oCepana		<fs af='oCApana,n,m,sg,3,o,0,0'>
+319	paDZAliKA		<fs af='paDZAliKA,adj,m,sg,,d,,'>|<fs af='paDZAliKA,n,m,sg,3,d,0,0'>
+320	paDZeliKe		<fs af='paDZAliKA,adj,m,sg,,o,,'>|<fs af='paDZAliKA,adj,m,pl,,d,,'>|<fs af='paDZAliKA,adj,m,pl,,o,,'>|<fs af='paDZAliKA,n,m,pl,3,d,0,0'>|<fs af='paDZAliKA,n,m,sg,3,o,0,0'>
+321	paDZeliKoM		<fs af='paDZAliKA,n,m,pl,3,o,0,0'>
+322	pajOdZApana		<fs af='pajOdZApana,n,m,sg,3,d,0,0'>
+323	pajOdZepana		<fs af='pajOdZApana,n,m,sg,3,o,0,0'>
+324	pakkApana		<fs af='pakkApana,n,m,sg,3,d,0,0'>
+325	pakkepana		<fs af='pakkApana,n,m,sg,3,o,0,0'>
+326	parAyApana		<fs af='parAyApana,n,m,sg,3,d,0,0'>
+327	parAyepana		<fs af='parAyApana,n,m,sg,3,o,0,0'>
+328	pasaMxIxApana		<fs af='pasaMxIxApana,n,m,sg,3,d,0,0'>
+329	pasaMxIxepana		<fs af='pasaMxIxApana,n,m,sg,3,o,0,0'>
+330	pawalApana		<fs af='pawalApana,n,m,sg,3,d,0,0'>
+331	pawalepana		<fs af='pawalApana,n,m,sg,3,o,0,0'>
+332	pecIxApana		<fs af='pecIxApana,n,m,sg,3,d,0,0'>
+333	pecIxepana		<fs af='pecIxApana,n,m,sg,3,o,0,0'>
+334	pEnApana		<fs af='pEnApana,n,m,sg,3,d,0,0'>
+335	pEnepana		<fs af='pEnApana,n,m,sg,3,o,0,0'>
+336	pEsAvAlA		<fs af='pEsAvAlA,adj,m,sg,,d,,'>|<fs af='pEsAvAlA,n,m,sg,3,d,0,0'>
+337	pEsevAle		<fs af='pEsevAlA,adj,m,sg,,o,,'>|<fs af='pEsevAlA,adj,m,pl,,d,,'>|<fs af='pEsevAlA,adj,m,pl,,o,,'>|<fs af='pEsevAlA,n,m,pl,3,d,0,0'>|<fs af='pEsevAlA,n,m,sg,3,o,0,0'>
+338	pEsevAloM		<fs af='pEsevAlA,n,m,pl,3,o,0,0'>
+339	piCadApana		<fs af='piCadApana,n,m,sg,3,d,0,0'>
+340	piCadepana		<fs af='piCadApana,n,m,sg,3,o,0,0'>
+341	piCadZApana		<fs af='piCadZApana,n,m,sg,3,d,0,0'>
+342	piCadZepana		<fs af='piCadZApana,n,m,sg,3,o,0,0'>
+343	piCalApana		<fs af='piCalApana,n,m,sg,3,d,0,0'>
+344	piCalepana		<fs af='piCalApana,n,m,sg,3,o,0,0'>
+345	picapicApana		<fs af='picapicApana,n,m,sg,3,d,0,0'>
+346	picapicepana		<fs af='picapicApana,n,m,sg,3,o,0,0'>
+347	PIkApana		<fs af='PIkApana,n,m,sg,3,d,0,0'>
+348	PIkepana		<fs af='PIkApana,n,m,sg,3,o,0,0'>
+349	pIlApana		<fs af='pIlApana,n,m,sg,3,d,0,0'>
+350	pIlepana		<fs af='pIlApana,n,m,sg,3,o,0,0'>
+351	purAnApana		<fs af='purAnApana,n,m,sg,3,d,0,0'>
+352	purAnepana		<fs af='purAnApana,n,m,sg,3,o,0,0'>
+353	pUrApana		<fs af='pUrApana,n,m,sg,3,d,0,0'>
+354	pUrepana		<fs af='pUrApana,n,m,sg,3,o,0,0'>
+355	rafgIlApana		<fs af='rafgIlApana,n,m,sg,3,d,0,0'>
+356	rafgIlepana		<fs af='rafgIlApana,n,m,sg,3,o,0,0'>
+357	raMgIlApana		<fs af='raMgIlApana,n,m,sg,3,d,0,0'>
+358	raMgIlepana		<fs af='raMgIlApana,n,m,sg,3,o,0,0'>
+359	razgIlApana		<fs af='razgIlApana,n,m,sg,3,d,0,0'>
+360	razgIlepana		<fs af='razgIlApana,n,m,sg,3,o,0,0'>
+361	rIwApana		<fs af='rIwApana,n,m,sg,3,d,0,0'>
+362	rIwepana		<fs af='rIwApana,n,m,sg,3,o,0,0'>
+363	ruKApana		<fs af='ruKApana,n,m,sg,3,d,0,0'>
+364	rUKApana		<fs af='rUKApana,n,m,sg,3,d,0,0'>
+365	ruKepana		<fs af='ruKApana,n,m,sg,3,o,0,0'>
+366	rUKepana		<fs af='rUKApana,n,m,sg,3,o,0,0'>
+367	saccApana		<fs af='saccApana,n,m,sg,3,d,0,0'>
+368	saccepana		<fs af='saccApana,n,m,sg,3,o,0,0'>
+369	SaramIlApana		<fs af='SaramIlApana,n,m,sg,3,d,0,0'>
+370	SaramIlepana		<fs af='SaramIlApana,n,m,sg,3,o,0,0'>
+371	saswApana		<fs af='saswApana,n,m,sg,3,d,0,0'>
+372	saswepana		<fs af='saswApana,n,m,sg,3,o,0,0'>
+373	saTiyAyApana		<fs af='saTiyAyApana,n,m,sg,3,d,0,0'>
+374	saTiyAyepana		<fs af='saTiyAyApana,n,m,sg,3,o,0,0'>
+375	sAxApana		<fs af='sAxApana,n,m,sg,3,d,0,0'>
+376	sAxepana		<fs af='sAxApana,n,m,sg,3,o,0,0'>
+377	sAzvalApana		<fs af='sAzvalApana,n,m,sg,3,d,0,0'>
+378	sAzvalepana		<fs af='sAzvalApana,n,m,sg,3,o,0,0'>
+379	sIXApana		<fs af='sIXApana,n,m,sg,3,d,0,0'>
+380	sIXAsAxA		<fs af='sIXAsAxA,adj,m,sg,,d,,'>|<fs af='sIXAsAxA,n,m,sg,3,d,0,0'>
+381	sIXepana		<fs af='sIXApana,n,m,sg,3,o,0,0'>
+382	sIXesAxe		<fs af='sIXAsAxA,adj,m,sg,,o,,'>|<fs af='sIXAsAxA,adj,m,pl,,d,,'>|<fs af='sIXAsAxA,adj,m,pl,,o,,'>|<fs af='sIXAsAxA,n,m,pl,3,d,0,0'>|<fs af='sIXAsAxA,n,m,sg,3,o,0,0'>
+383	sIXesAxoM		<fs af='sIXAsAxA,n,m,pl,3,o,0,0'>
+384	sOwelApana		<fs af='sOwelApana,n,m,sg,3,d,0,0'>
+385	sOwelepana		<fs af='sOwelApana,n,m,sg,3,o,0,0'>
+386	suhAvanApana		<fs af='suhAvanApana,n,m,sg,3,d,0,0'>
+387	suhAvanepana		<fs af='suhAvanApana,n,m,sg,3,o,0,0'>
+388	SuhaxApana		<fs af='SuhaxApana,n,m,sg,3,d,0,0'>
+389	Suhaxepana		<fs af='SuhaxApana,n,m,sg,3,o,0,0'>
+390	sUKApana		<fs af='sUKApana,n,m,sg,3,d,0,0'>
+391	sUKepana		<fs af='sUKApana,n,m,sg,3,o,0,0'>
+392	sulaJApana		<fs af='sulaJApana,n,m,sg,3,d,0,0'>
+393	sulaJepana		<fs af='sulaJApana,n,m,sg,3,o,0,0'>
+394	sUnApana		<fs af='sUnApana,n,m,sg,3,d,0,0'>
+395	sUnepana		<fs af='sUnApana,n,m,sg,3,o,0,0'>
+396	sUramApana		<fs af='sUramApana,n,m,sg,3,d,0,0'>
+397	sUramepana		<fs af='sUramApana,n,m,sg,3,o,0,0'>
+398	surIlApana		<fs af='surIlApana,n,m,sg,3,d,0,0'>
+399	surIlepana		<fs af='surIlApana,n,m,sg,3,o,0,0'>
+400	suWarApana		<fs af='suWarApana,n,m,sg,3,d,0,0'>
+401	suWarepana		<fs af='suWarApana,n,m,sg,3,o,0,0'>
+402	TaMdApana		<fs af='TaMdApana,n,m,sg,3,d,0,0'>
+403	TaMdepana		<fs af='TaMdApana,n,m,sg,3,o,0,0'>
+404	teDApana		<fs af='teDApana,n,m,sg,3,d,0,0'>
+405	teDepana		<fs af='teDApana,n,m,sg,3,o,0,0'>
+406	teDZApana		<fs af='teDZApana,n,m,sg,3,d,0,0'>
+407	teDZepana		<fs af='teDZApana,n,m,sg,3,o,0,0'>
+408	tUtAPUtA		<fs af='tUtAPUtA,adj,m,sg,,d,,'>|<fs af='tUtAPUtA,n,m,sg,3,d,0,0'>
+409	tUtePUte		<fs af='tUtAPUtA,adj,m,sg,,o,,'>|<fs af='tUtAPUtA,adj,m,pl,,d,,'>|<fs af='tUtAPUtA,adj,m,pl,,o,,'>|<fs af='tUtAPUtA,n,m,pl,3,d,0,0'>|<fs af='tUtAPUtA,n,m,sg,3,o,0,0'>
+410	tUtePUtoM		<fs af='tUtAPUtA,n,m,pl,3,o,0,0'>
+411	ucakkApana		<fs af='ucakkApana,n,m,sg,3,d,0,0'>
+412	ucakkepana		<fs af='ucakkApana,n,m,sg,3,o,0,0'>
+413	uGadZApana		<fs af='uGadZApana,n,m,sg,3,d,0,0'>
+414	uGadZepana		<fs af='uGadZApana,n,m,sg,3,o,0,0'>
+415	ulatApalatA		<fs af='ulatApalatA,adj,m,sg,,d,,'>|<fs af='ulatApalatA,n,m,sg,3,d,0,0'>
+416	ulatAsIXA		<fs af='ulatAsIXA,adj,m,sg,,d,,'>|<fs af='ulatAsIXA,n,m,sg,3,d,0,0'>
+417	ulatepalate		<fs af='ulatApalatA,adj,m,sg,,o,,'>|<fs af='ulatApalatA,adj,m,pl,,d,,'>|<fs af='ulatApalatA,adj,m,pl,,o,,'>|<fs af='ulatApalatA,n,m,pl,3,d,0,0'>|<fs af='ulatApalatA,n,m,sg,3,o,0,0'>
+418	ulatepalatoM		<fs af='ulatApalatA,n,m,pl,3,o,0,0'>
+419	ulatesIXe		<fs af='ulatAsIXA,adj,m,sg,,o,,'>|<fs af='ulatAsIXA,adj,m,pl,,d,,'>|<fs af='ulatAsIXA,adj,m,pl,,o,,'>|<fs af='ulatAsIXA,n,m,pl,3,d,0,0'>|<fs af='ulatAsIXA,n,m,sg,3,o,0,0'>
+420	ulatesIXoM		<fs af='ulatAsIXA,n,m,pl,3,o,0,0'>
+421	ultApultA		<fs af='ultApultA,adv,,,,,,'>
+422	ultepulte		<fs af='ultApultA,adj,m,sg,,o,,'>|<fs af='ultApultA,adj,m,pl,,d,,'>|<fs af='ultApultA,adj,m,pl,,o,,'>|<fs af='ultApultA,n,m,pl,3,d,0,0'>|<fs af='ultApultA,n,m,sg,3,o,0,0'>
+423	ultepultoM		<fs af='ultApultA,n,m,pl,3,o,0,0'>
+424	upatApana		<fs af='upatApana,n,m,sg,3,d,0,0'>
+425	upatepana		<fs af='upatApana,n,m,sg,3,o,0,0'>
+426	uwAvalApana		<fs af='uwAvalApana,n,m,sg,3,d,0,0'>
+427	uwAvalepana		<fs af='uwAvalApana,n,m,sg,3,o,0,0'>
+428	UzcAnIcA		<fs af='UzcAnIcA,adj,m,sg,,d,,'>|<fs af='UzcAnIcA,n,m,sg,3,d,0,0'>
+429	UzcenIce		<fs af='UzcAnIcA,adj,m,sg,,o,,'>|<fs af='UzcAnIcA,adj,m,pl,,d,,'>|<fs af='UzcAnIcA,adj,m,pl,,o,,'>|<fs af='UzcAnIcA,n,m,pl,3,d,0,0'>|<fs af='UzcAnIcA,n,m,sg,3,o,0,0'>
+430	UzcenIcoM		<fs af='UzcAnIcA,n,m,pl,3,o,0,0'>
+431	wAjApana		<fs af='wAjApana,n,m,sg,3,d,0,0'>
+432	wAjepana		<fs af='wAjApana,n,m,sg,3,o,0,0'>
+433	wAjZApana		<fs af='wAjZApana,n,m,sg,3,d,0,0'>
+434	wAjZepana		<fs af='wAjZApana,n,m,sg,3,o,0,0'>
+435	wIKApana		<fs af='wIKApana,n,m,sg,3,d,0,0'>
+436	wIKepana		<fs af='wIKApana,n,m,sg,3,o,0,0'>
+437	wiraCApana		<fs af='wiraCApana,n,m,sg,3,d,0,0'>
+438	wiraCepana		<fs af='wiraCApana,n,m,sg,3,o,0,0'>
+439	wuwalApana		<fs af='wuwalApana,n,m,sg,3,d,0,0'>
+440	wuwalepana		<fs af='wuwalApana,n,m,sg,3,o,0,0'>
+441	xAwApana		<fs af='xAwApana,n,m,sg,3,d,0,0'>
+442	xAwepana		<fs af='xAwApana,n,m,sg,3,o,0,0'>
+443	XImApana		<fs af='XImApana,n,m,sg,3,d,0,0'>
+444	XImepana		<fs af='XImApana,n,m,sg,3,o,0,0'>
+445	xivAliyApana		<fs af='xivAliyApana,n,m,sg,3,d,0,0'>
+446	xivAliyepana		<fs af='xivAliyApana,n,m,sg,3,o,0,0'>
+447	xubalApana		<fs af='xubalApana,n,m,sg,3,d,0,0'>
+448	xubalepana		<fs af='xubalApana,n,m,sg,3,o,0,0'>
+449	XuMXalApana		<fs af='XuMXalApana,n,m,sg,3,d,0,0'>
+450	XuMXalepana		<fs af='XuMXalApana,n,m,sg,3,o,0,0'>
+451	XuXalApana		<fs af='XuXalApana,n,m,sg,3,d,0,0'>
+452	XuXalepana		<fs af='XuXalApana,n,m,sg,3,o,0,0'>
+453	XuzXalApana		<fs af='XuzXalApana,n,m,sg,3,d,0,0'>
+454	XuzXalepana		<fs af='XuzXalApana,n,m,sg,3,o,0,0'>

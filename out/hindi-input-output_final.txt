@@ -1,0 +1,80 @@
+1	0	0	ट्रेन	N_NN	B-NP	ट्रेन,n,f,sg,3,o,0,0	O	{MCL}{RP}
+1	0	1	में	PSP	I-NP	में,psp,,,,,,	O	
+1	0	2	होने	V_VM	B-VGNN	हो,v,any,any,any,o,ना,ना	O	
+1	0	3	वाले	PSP	I-VGNN	वाला,psp,m,pl,,o,का,का	O	{/RP}
+1	0	4	हर	QT_QTF	B-NP	हर,avy,,,,,,	O	
+1	0	5	अपराध	N_NN	I-NP	अपराध,n,m,sg,3,o,0,0	O	
+1	0	6	में	PSP	I-NP	में,psp,,,,,,	O	
+1	0	7	इस	DM_DMD	B-NP	यह,pn,any,sg,3,o,0,0	O	
+1	0	8	गाँव	N_NN	I-NP	गाँव,n,m,sg,3,o,0,0	O	
+1	0	9	का	PSP	I-NP	का,psp,m,sg,,d,का,का	O	
+1	0	10	कोई	PR_PRP	B-NP	कोई,pn,any,sg,3,d,0,0	O	
+1	0	11	न	RP_RPD	I-NP	न,avy,,,,,,	O	
+1	0	12	कोई	PR_PRP	I-NP	कोई,pn,any,sg,3,d,0,0	O	
+1	0	13	शामिल	JJ	B-JJP	शामिल,adj,any,any,,,,	O	
+1	0	14	मिल	V_VM	B-VGF	मिल,v,any,any,any,,0,0	O	
+1	0	15	जाएगा	V_VAUX	I-VGF	जा,v,m,sg,3,,गा,गा	O	{/MCL}
+1	0	16	।	RD_PUNC	B-BLK	।,punc,,,,,,	O	
+
+
+1	1	0	भारत	N_NNP	B-NP	भारत,n,m,sg,3,d,0,0	O	
+1	1	1	एक	QT_QTC	B-NP	एक,num,any,any,,any,,	O	
+1	1	2	लोकतांत्रिक	JJ	I-NP	लोकतांत्रिक,adj,any,any,,d,,	O	
+1	1	3	देश	N_NN	I-NP	देश,n,m,sg,3,d,0,0	O	
+1	1	4	है	V_VM	B-VGF	है,v,any,sg,3,,है,है	O	
+1	1	5	।	RD_PUNC	B-BLK	।,punc,,,,,,	O	
+
+
+1	2	0	कमल	N_NNP	B-NP	कमल,n,m,sg,3,d,0,0	O	
+1	2	1	हासन	N_NNP	I-NP	हासन,n,m,sg,3,o,,	O	
+1	2	2	की	PSP	I-NP	का,psp,f,sg,,d,का,का	O	
+1	2	3	पार्टी	N_NN	B-NP	पार्टी,n,f,sg,3,d,0,0	O	
+1	2	4	मक्कल	N_NNP	B-NP	मक्कल,n,m,sg,3,d,0,0	O	
+1	2	5	नीधि	N_NNP	I-NP	नीधि,n,f,sg,3,d,,	O	
+1	2	6	मय्यम	N_NNP	I-NP	मय्यम,n,m,sg,3,o,,	O	
+1	2	7	ने	PSP	I-NP	ने,psp,,,,,,	O	
+1	2	8	तमिलनाडु	N_NNP	B-NP	तमिलनाडु,n,m,sg,3,d,0,0	O	
+1	2	9	विधानसभा	N_NN	I-NP	विधानसभा,n,f,sg,3,d,0,0	O	
+1	2	10	चुनाव	N_NN	I-NP	चुनाव,n,m,sg,3,d,0,0	O	
+1	2	11	नहीं	RP_NEG	B-VGF	नहीं,avy,,,,,,	O	
+1	2	12	लड़ने	V_VM	I-VGF	लड़,v,any,any,any,o,ना,ना	O	
+1	2	13	और	CC_CCD	B-CCP	और,avy,,,,,,	O	
+1	2	14	डीएमके	N_NNP	B-NP	डीएमके,n,m,sg,3,o,,	O	
+1	2	15	के	PSP	I-NP	का,psp,m,sg,,o,का,का	O	
+1	2	16	नेतृत्व	N_NN	B-NP	नेतृत्व,n,m,sg,3,o,0,0	O	
+1	2	17	वाले	PSP	I-NP	वाला,psp,m,sg,,o,का,का	O	
+1	2	18	गठबंधन	N_NN	B-NP	गठबंधन,n,m,sg,3,o,0,0	O	
+1	2	19	को	PSP	I-NP	को,psp,,,,,,	O	
+1	2	20	बिना	RP_RPD	B-NP	बिना,avy,,,,,,	O	
+1	2	21	शर्त	JJ	I-NP	शर्त,adj,any,sg,3,d,,	O	
+1	2	22	समर्थन	N_NN	I-NP	समर्थन,n,m,sg,3,d,0,0	O	
+1	2	23	देने	V_VM	B-VGNN	दे,v,any,any,any,o,ना,ना	O	
+1	2	24	का	PSP	I-VGNN	का,psp,m,sg,,d,का,का	O	
+1	2	25	फैसला	N_NN	B-NP	फैसला,n,m,sg,3,d,0,0	O	
+1	2	26	किया	V_VM	B-VGF	कर,v,m,sg,any,,या,या	O	
+1	2	27	है	V_VAUX	I-VGF	है,v,any,sg,3,,है,है	O	
+1	2	28	.	RD_PUNC	B-BLK	.,punc,,,,,,	O	
+
+
+1	3	0	सीट	N_NN	B-NP	सीट,n,f,sg,3,d,0,0	O	
+1	3	1	बंटवारे	N_NN	I-NP	बंटवारा,n,m,sg,3,o,0,0	O	
+1	3	2	और	CC_CCD	B-CCP	और,avy,,,,,,	O	
+1	3	3	चुनाव	N_NN	B-NP	चुनाव,n,m,sg,3,d,0,0	O	
+1	3	4	चिन्ह	N_NN	I-NP	चिन्ह,n,m,sg,3,o,0,0	O	
+1	3	5	को	PSP	I-NP	को,psp,,,,,,	O	
+1	3	6	लेकर	V_VM	B-VGNF	ले,v,any,any,any,,कर,कर	O	
+1	3	7	असहमति	N_NN	B-NP	असहमति,n,f,sg,3,o,0,0	O	
+1	3	8	के	PSP	I-NP	का,psp,,,,,का,का	O	
+1	3	9	बीच	N_NST	I-NP	बीच,nst,m,sg,3,d,,	O	
+1	3	10	लिया	V_VM	B-VGNF	ले,v,m,sg,any,,या,या	O	
+1	3	11	गया	V_VAUX	I-VGNF	जा,v,m,sg,any,,या1,या1	O	
+1	3	12	यह	DM_DMD	B-NP	यह,pn,any,sg,3,d,0,0	O	
+1	3	13	निर्णय	N_NN	I-NP	निर्णय,n,m,sg,3,d,0,0	O	
+1	3	14	रणनीतिक	JJ	B-NP	रणनीतिक,adj,any,any,,d,,	O	
+1	3	15	कदम	N_NN	I-NP	कदम,n,m,sg,3,d,0,0	O	
+1	3	16	माना	V_VM	B-VGF	मान,v,m,sg,any,,या,या	O	
+1	3	17	जा	V_VAUX	I-VGF	जा,v,any,any,any,,0,0	O	
+1	3	18	रहा	V_VAUX	I-VGF	रह,v,m,sg,3,,या,या	O	
+1	3	19	है	V_VAUX	I-VGF	है,v,any,sg,3,,है,है	O	
+1	3	20	.	RD_PUNC	B-BLK	.,punc,,,,,,	O	
+

@@ -1,0 +1,94 @@
+						HINDI MORPH 5.0.3 (MORPH ANALYZER)
+						----------------------------------
+Morph : Uses rules to identify the root and grammatical features of a word. It splits the word into its root and grammatical suffixes.
+
+Important Not : This morph is working on wx notation. 
+Roman Notation for Indian language Appendic B nlpbook by akshar Bharti group
+(http://ltrc.iiit.ac.in/showfile.php?filename=downloads/nlpbook/index.html)
+		or
+http://sanskrit.inria.fr/DATA/wx.html
+
+
+Requirements:
+------------
+Operating System		:    LINUX/UNIX system
+
+Compiler/Interpreter/Librarie(s):    gcc, gdbm and glib-2.0
+
+Install these dependencies otherwise Hindi morph analyzer will not work as expected.
+
+A) In Ubuntu
+sudo apt-get install libgdbm-dev libglib2.0-dev
+
+B) In Fedora/CentOS
+yum install gcc gdbm-devel glib2 glib2-devel
+
+For installation on Linux, please refer to the file INSTALL.
+
+
+Directory Structure:
+--------------------
+
+morph
+     |
+     |---src (functional source code of the morph)
+     |	    |---sl/morph/hin
+     |	    	|---API (SSF API's)
+     |    
+     |---data_bin (data bin files)
+     |     |
+     |     |---sl/morph/hin
+     |	  
+     |---data_src
+     |	    |---sl/morph/hin
+     |      	|---c_data
+     |      	|---pc_data
+     |	    	|---dict
+     |      	|---shell
+     |
+     |
+     |---tests (contains the referenece input and output)
+     |     |
+     |     |--hin (contains the referenece input and output of hindi as source langauge)
+     |
+     |---doc (documentaion files of the morph)
+     |
+     |---README (How to run/use the module)
+     |
+     |---INSTALL (How to install in sampark directory structure)
+     |
+     |---ChangeLog (version inforamation)
+     |
+     |---Makefile (first level make file for copying the module source in sampark system)
+     |
+     |---Makefile.stage2 (2nd level make file for actual installation/copying in the bin and data_bin directory)
+     |
+     |---morph_run.sh (to run the morph module)
+     |
+     |---morph.sh (for the use of dashboard spec file)
+     |
+     |---morph_web.sh (for the use of web development)
+     |
+     |---morph.spec (individual morph module run with dashboard)
+
+
+How to Use??
+------------
+
+$setu/bin/sl/morph/hin/morph_hin.exe --logfilepath morph.log --pdgmfilepath $setu/data_bin/sl/morph/hin/ --uwordpath $setu/data_bin/sl/morph/hin/dict_final --dictfilepath $setu/data_bin/sl/morph/hin/dict/  -ULDWH --inputfile tests/regression-data-4.0.0-all-paradigm-uniq-594-ssf-wx.in --outputfile morphoutput
+
+cat morphoutput
+   
+   *sample input and output files are provided in the tests dir namely regression-data-4.0.0-all-paradigm-uniq-594-ssf-wx.in and regression-data-4.0.0-all-paradigm-uniq-594-ssf-wx.in
+
+
+#################################
+Author: Rashid Ahmad, Sanket Kumar Pathak
+	IIIT Hyderabad
+
+Any Quries or suggestions mail to
+
+rashid101b@gmail.com, sanketlck@gmail.com
+
+#################################
+

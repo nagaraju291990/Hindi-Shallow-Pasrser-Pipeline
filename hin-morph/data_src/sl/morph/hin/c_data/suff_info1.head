@@ -1,0 +1,3 @@
+#include "const.h"
+#include "../../../../src/sl/morph/hin/analyser/struct.h"
+struct suff_add_info suff_add_info_ar[SIZEOF_SUFF_ADD]={

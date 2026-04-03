@@ -1,0 +1,279 @@
+import sys
+import subprocess
+import re
+import os
+
+
+# -------- Step1 --------
+def run_step1(input_folder):
+    cmd = f"""bash run_pos_chunk_morph_models_for_hindi.sh \
+{input_folder} tmp_feat tmp_out \
+model-lcat.m model-gender.m model-number.m model-person.m \
+model-case.m model-vib.m model-pos.m model-chunk.m"""
+
+    # ❗ do NOT stop on vib error
+    subprocess.run(cmd, shell=True)
+
+
+# -------- Read Step1 Output --------
+def read_step1(file_path):
+    data = []
+    words = []
+
+    with open(file_path, "r", encoding="utf-8") as f:
+        # print(f"file")
+        # print(file_path)
+        for line in f:
+            # print("1line")
+            # print(line)
+            # print("2line")
+            if line.strip() == "":
+                data.append(None)
+                continue
+
+            cols = line.strip().split("\t")
+            # print(cols)
+            # print(cols)
+
+            word = cols[0]
+            # print(word)
+            # print("after word")
+            cat = cols[3] if len(cols) > 3 else ""
+            sixth = cols[5] if len(cols) > 5 else ""
+
+            data.append({
+                "cols": cols,
+                "word": word,
+                "cat": cat,
+                "sixth": sixth
+            })
+
+            words.append(word)
+            # print(words)
+
+    return data, words
+
+
+# -------- Morph --------
+def run_morph(words):
+    import os
+
+    setu_path = os.environ.get("setu")
+
+    if not setu_path:
+        raise ValueError("❌ 'setu' env variable not set")
+
+    # ---- paths ----
+    morph_script = f"{setu_path}/bin/sl/morph/hin/morph_run.sh"
+    converter_dir = f"{setu_path}/bin/sl/morph/hin/convertor"
+
+    utf2wx = f"{converter_dir}/utf2wx_run_ssf.sh"
+    wx2utf = f"{converter_dir}/wx2utf_run_ssf.sh"
+
+    # ---- ensure tmp_out exists ----
+    os.makedirs("tmp_out", exist_ok=True)
+
+    # ---- temp files ----
+    temp_input = "tmp_out/morph_input.txt"
+    temp_wx = "tmp_out/morph_input.wx"
+    temp_morph_out = "tmp_out/morph_output.wx"
+    temp_utf_out = "tmp_out/morph_output.txt"
+
+    # ---- write indexed input ----
+    with open(temp_input, "w", encoding="utf-8") as f:
+        for i, word in enumerate(words, start=1):
+            # print(word)
+            f.write(f"{i}\t{word}\n")
+
+    # ---- UTF → WX ----
+    subprocess.run(
+        f"sh {utf2wx} {temp_input} > {temp_wx}",
+        shell=True,
+        check=True,
+        capture_output=True
+    )
+    # exit()
+    
+    # ---- Morph (NO direct printing) ----
+    morph_proc = subprocess.run(
+        f"sh {morph_script} {temp_wx} > {temp_morph_out}",
+        shell=True,
+        text=True,
+        capture_output=True
+    )
+    # exit()
+    
+
+    # ---- WX → UTF ----
+    subprocess.run(
+        f"sh {wx2utf} {temp_morph_out} > {temp_utf_out}",
+        shell=True,
+        check=True,
+        capture_output=True
+    )
+    # exit()
+
+    # ---- read final output ----
+    with open(temp_utf_out, "r", encoding="utf-8") as f:
+        output = f.read()
+
+    # ✅ ONLY Python print (as you wanted)
+    print("\n====== FINAL MORPH OUTPUT ======")
+    # print(output)
+    print("================================\n")
+
+    lines = output.strip().split("\n")
+    lines = [l for l in lines if l.strip()]
+
+    return lines
+def build_morph_dict(morph_lines):
+    morph_dict = {}
+
+    for line in morph_lines:
+        # print(line)
+        parts = line.split("\t")
+
+        if len(parts) < 3:
+            continue
+
+        word = parts[1]  # ✅ morph gives word here
+
+        analyses = parts[3].split("|")
+
+        for ana in analyses:
+            # print(ana)
+            m = re.search(r"af='([^']+)'", ana)
+            if not m:
+                continue
+
+            af = m.group(1).split(",")
+
+            if len(af) < 6:
+                continue
+
+            root = af[0]
+            cat = af[1]
+            sixth = af[6]
+            if(not sixth):
+                sixth = "_"
+
+            key = (word, cat)
+
+            if key not in morph_dict:
+                morph_dict[key] = []
+
+            morph_dict[key].append((root, sixth))
+    # print(morph_dict)
+    return morph_dict
+
+# -------- Parse Morph --------
+def parse_morph(line):
+    parts = line.split("\t")
+
+    if len(parts) < 3:
+        return []
+
+    analyses = parts[2].split("|")
+
+    parsed = []
+    for ana in analyses:
+        m = re.search(r"af='([^']+)'", ana)
+        if m:
+            af = m.group(1).split(",")
+
+            if len(af) >= 6:
+                root = af[0]
+                cat = af[1]
+                sixth = af[5]   # ✅ morph 6th field
+
+                parsed.append((root, cat, sixth))
+
+    return parsed
+
+
+# -------- SAFE Merge (FIXED) --------
+def merge(data, morph_dict):
+    for entry in data:
+        if entry is None:
+            continue
+
+        word = entry["word"]
+        cat = entry["cat"]
+
+        key = (word, cat)
+
+        if key in morph_dict:
+            # take first analysis (or change logic if needed)
+            root, sixth = morph_dict[key][0]
+        else:
+            root, sixth = "UNK", "UNK"
+
+        entry["cols"].append(root)
+        entry["cols"].append(sixth)
+
+    return data
+
+# -------- Write Output --------
+def write_output(data, outfile):
+    with open(outfile, "w", encoding="utf-8") as f:
+        # print(outfile)
+        for entry in data:
+            if entry is None:
+                f.write("\n")
+            else:
+                f.write("\t".join(entry["cols"]) + "\n")
+
+
+# -------- Process One File --------
+def process_file(input_file, output_file):
+    print(f"▶ Processing: {input_file}")
+
+    data, words = read_step1(input_file)
+    # print(data)
+    # print(words)
+
+    if not words:
+        print("⚠️ Empty file")
+        return
+
+    morph_lines = run_morph(words)
+
+    morph_dict = build_morph_dict(morph_lines)
+
+    merged = merge(data, morph_dict)
+
+    write_output(merged, output_file)
+
+
+# -------- MAIN --------
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: python script.py <input_folder>")
+        sys.exit(1)
+
+    input_folder = sys.argv[1]
+
+    print("▶ Running Step1 on folder...")
+    run_step1(input_folder)   # ❗ ignore vib error
+
+    step1_out_dir = "tmp_out"
+    final_out_dir = "final_out"
+
+    os.makedirs(final_out_dir, exist_ok=True)
+
+    for file in os.listdir(step1_out_dir):
+        # ✅ skip morph temp files
+        if file.startswith("morph_"):
+            continue
+    
+        if not file.endswith(".txt"):
+            continue
+
+        input_path = os.path.join(step1_out_dir, file)
+
+        output_file = file.replace(".txt", "_final.txt")
+        output_path = os.path.join(final_out_dir, output_file)
+
+        process_file(input_path, output_path)
+
+    print("✅ Done (morph error fixed, vib ignored)")

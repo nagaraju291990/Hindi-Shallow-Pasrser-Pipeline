@@ -1,0 +1,2 @@
+./create_dbm_uword.pl GDBM ../../../../../data_bin/sl/morph/hin/uword.dbm < ../dict/uword.dic
+chmod 644 ../../../../../data_bin/sl/morph/hin/uword.dbm

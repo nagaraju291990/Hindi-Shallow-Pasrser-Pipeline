@@ -1,0 +1,73 @@
+1	trena		<fs af='trena,n,f,sg,3,d,0,0'>|<fs af='trena,n,f,sg,3,o,0,0'>
+2	meM		<fs af='meM,psp,,,,,,'>
+3	hone		<fs af='ho,v,m,pl,any,,nA,nA'>
+4	vAle		<fs af='vAlA,psp,m,sg,,o,kA,kA'>|<fs af='vAlA,psp,m,pl,,d,kA,kA'>|<fs af='vAlA,psp,m,pl,,o,kA,kA'>|<fs af='vAlA,n,m,pl,3,d,0,0'>|<fs af='vAlA,n,m,sg,3,o,0,0'>
+5	hara		<fs af='hara,n,m,sg,3,d,0,0'>|<fs af='hara,n,m,pl,3,d,0,0'>|<fs af='hara,n,m,sg,3,o,0,0'>|<fs af='hara,adj,any,any,,any,,'>|<fs af='hara,v,any,any,any,,0,0'>
+6	aparAXa		<fs af='aparAXa,n,m,sg,3,d,0,0'>|<fs af='aparAXa,n,m,pl,3,d,0,0'>|<fs af='aparAXa,n,m,sg,3,o,0,0'>
+7	meM		<fs af='meM,psp,,,,,,'>
+8	isa		<fs af='yaha,pn,any,sg,3,o,0,0'>
+9	gAzva		<fs af='gAzva,n,m,sg,3,d,0,0'>|<fs af='gAzva,n,m,pl,3,d,0,0'>|<fs af='gAzva,n,m,sg,3,o,0,0'>
+10	kA		<fs af='kA,psp,m,sg,,d,kA,kA'>
+11	koI		<fs af='koI,n,m,sg,3,d,0,0'>|<fs af='koI,n,m,pl,3,d,0,0'>|<fs af='koI,n,m,sg,3,o,0,0'>|<fs af='koI,adv,,,,,,'>|<fs af='koI,adj,any,any,,any,,'>|<fs af='koI,pn,any,sg,3,d,0,0'>|<fs af='koI,pn,any,pl,3,d,0,0'>
+12	na		<fs af='na,adv,,,,,,'>|<fs af='na,avy,,,,,,'>|<fs af='na,n,m,sg,3,d,0,0'>|<fs af='na,n,m,pl,3,d,0,0'>|<fs af='na,n,m,sg,3,o,0,0'>|<fs af='na,n,m,pl,3,o,0,0'>
+13	koI		<fs af='koI,n,m,sg,3,d,0,0'>|<fs af='koI,n,m,pl,3,d,0,0'>|<fs af='koI,n,m,sg,3,o,0,0'>|<fs af='koI,adv,,,,,,'>|<fs af='koI,adj,any,any,,any,,'>|<fs af='koI,pn,any,sg,3,d,0,0'>|<fs af='koI,pn,any,pl,3,d,0,0'>
+14	SAmila		<fs af='SAmila,n,m,sg,3,d,0,0'>|<fs af='SAmila,n,m,pl,3,d,0,0'>|<fs af='SAmila,n,m,sg,3,o,0,0'>|<fs af='SAmila,adj,any,any,,any,,'>
+15	mila		<fs af='mila,n,f,sg,3,d,0,0'>|<fs af='mila,n,f,sg,3,o,0,0'>|<fs af='mila,v,any,any,any,,0,0'>
+16	jAegA		<fs af='jA,v,m,sg,2,,gA,gA'>|<fs af='jA,v,m,sg,3,,gA,gA'>
+17	.		<fs af='.,punc,,,,,,'>
+18	BArawa		<fs af='BArawa,n,m,sg,3,d,0,0'>|<fs af='BArawa,n,m,pl,3,d,0,0'>|<fs af='BArawa,n,m,sg,3,o,0,0'>|<fs af='BArawa,n,m,pl,3,o,0,0'>
+19	eka		<fs af='eka,adj,any,any,,any,,'>|<fs af='eka,n,m,sg,3,d,0,0'>|<fs af='eka,n,m,pl,3,d,0,0'>|<fs af='eka,n,m,sg,3,o,0,0'>|<fs af='eka,n,m,pl,3,o,0,0'>
+20	lokawAMwrika		<fs af='lokawAMwrika,adj,any,any,,any,,'>
+21	xeSa		<fs af='xeSa,n,m,sg,3,d,0,0'>|<fs af='xeSa,n,m,pl,3,d,0,0'>|<fs af='xeSa,n,m,sg,3,o,0,0'>
+22	hE		<fs af='hE,v,any,sg,2,,hE,hE'>|<fs af='hE,v,any,sg,3,,hE,hE'>
+23	.		<fs af='.,punc,,,,,,'>
+24	kamala		<fs af='kamala,n,m,sg,3,d,0,0'>|<fs af='kamala,n,m,pl,3,d,0,0'>|<fs af='kamala,n,m,sg,3,o,0,0'>
+25	hAsana		<fs af='hAsana,unk,,,,,,'>
+26	kI		<fs af='kA,psp,f,sg,,d,kA,kA'>|<fs af='kA,psp,f,sg,,o,kA,kA'>|<fs af='kA,psp,f,pl,,d,kA,kA'>|<fs af='kA,psp,f,pl,,o,kA,kA'>|<fs af='kara,v,f,sg,any,,yA,yA'>
+27	pArtI		<fs af='pArtI,n,f,sg,3,d,0,0'>|<fs af='pArtI,n,f,sg,3,o,0,0'>
+28	makkala		<fs af='makkala,n,m,sg,3,d,0,0'>|<fs af='makkala,n,m,pl,3,d,0,0'>|<fs af='makkala,n,m,sg,3,o,0,0'>|<fs af='makkala,n,m,pl,3,o,0,0'>
+29	nIXi		<fs af='nIXi,unk,,,,,,'>
+30	mayyama		<fs af='mayyama,unk,,,,,,'>
+31	ne		<fs af='ne,psp,,,,,,'>
+32	wamilanAdu		<fs af='wamilanAdu,n,m,sg,3,d,0,0'>|<fs af='wamilanAdu,n,m,pl,3,d,0,0'>|<fs af='wamilanAdu,n,m,sg,3,o,0,0'>|<fs af='wamilanAdu,n,m,pl,3,o,0,0'>
+33	viXAnasaBA		<fs af='viXAnasaBA,n,f,sg,3,d,0,0'>|<fs af='viXAnasaBA,n,f,sg,3,o,0,0'>
+34	cunAva		<fs af='cunAva,n,m,sg,3,d,0,0'>|<fs af='cunAva,n,m,pl,3,d,0,0'>|<fs af='cunAva,n,m,sg,3,o,0,0'>
+35	nahIM		<fs af='nahIM,n,f,sg,3,d,0,0'>|<fs af='nahIM,n,f,pl,3,d,0,0'>|<fs af='nahIM,n,f,sg,3,o,0,0'>|<fs af='nahIM,n,f,pl,3,o,0,0'>|<fs af='nahIM,adv,,,,,,'>|<fs af='nahIM,avy,,,,,,'>|<fs af='naha,v,f,pl,any,,yA,yA'>
+36	ladZane		<fs af='ladZa,v,m,pl,any,,nA,nA'>
+37	Ora		<fs af='Ora,n,m,sg,3,d,0,0'>|<fs af='Ora,n,m,pl,3,d,0,0'>|<fs af='Ora,n,m,sg,3,o,0,0'>|<fs af='Ora,adv,,,,,,'>|<fs af='Ora,avy,,,,,,'>|<fs af='Ora,adj,any,any,,any,,'>
+38	dIemake		<fs af='dIemake,unk,,,,,,'>
+39	ke		<fs af='kA,psp,m,sg,,o,kA,kA'>|<fs af='kA,psp,m,pl,,d,kA,kA'>|<fs af='kA,psp,m,pl,,o,kA,kA'>
+40	newqwva		<fs af='newqwva,n,m,sg,3,d,0,0'>|<fs af='newqwva,n,m,pl,3,d,0,0'>|<fs af='newqwva,n,m,sg,3,o,0,0'>|<fs af='newqwva,n,m,pl,3,o,0,0'>
+41	vAle		<fs af='vAlA,psp,m,sg,,o,kA,kA'>|<fs af='vAlA,psp,m,pl,,d,kA,kA'>|<fs af='vAlA,psp,m,pl,,o,kA,kA'>|<fs af='vAlA,n,m,pl,3,d,0,0'>|<fs af='vAlA,n,m,sg,3,o,0,0'>
+42	gaTabaMXana		<fs af='gaTabaMXana,n,m,sg,3,d,0,0'>|<fs af='gaTabaMXana,n,m,pl,3,d,0,0'>|<fs af='gaTabaMXana,n,m,sg,3,o,0,0'>
+43	ko		<fs af='ko,psp,,,,,,'>
+44	binA		<fs af='binA,n,f,sg,3,d,0,0'>|<fs af='binA,n,f,sg,3,o,0,0'>|<fs af='binA,v,any,any,any,,0,0'>|<fs af='binA,adv,,,,,,'>|<fs af='bina,v,m,sg,any,,yA,yA'>
+45	Sarwa		<fs af='Sarwa,n,f,sg,3,d,0,0'>|<fs af='Sarwa,n,f,sg,3,o,0,0'>
+46	samarWana		<fs af='samarWana,n,m,sg,3,d,0,0'>|<fs af='samarWana,n,m,pl,3,d,0,0'>|<fs af='samarWana,n,m,sg,3,o,0,0'>
+47	xene		<fs af='xe,v,m,pl,any,,nA,nA'>
+48	kA		<fs af='kA,psp,m,sg,,d,kA,kA'>
+49	PEsalA		<fs af='PEsalA,n,m,sg,3,d,0,0'>
+50	kiyA		<fs af='kara,v,m,sg,any,,yA,yA'>
+51	hE		<fs af='hE,v,any,sg,2,,hE,hE'>|<fs af='hE,v,any,sg,3,,hE,hE'>
+52	.		<fs af='.,punc,,,,,,'>
+53	sIta		<fs af='sIta,n,f,sg,3,d,0,0'>|<fs af='sIta,n,f,sg,3,o,0,0'>
+54	baMtavAre		<fs af='baMtavArA,n,m,pl,3,d,0,0'>|<fs af='baMtavArA,n,m,sg,3,o,0,0'>
+55	Ora		<fs af='Ora,n,m,sg,3,d,0,0'>|<fs af='Ora,n,m,pl,3,d,0,0'>|<fs af='Ora,n,m,sg,3,o,0,0'>|<fs af='Ora,adv,,,,,,'>|<fs af='Ora,avy,,,,,,'>|<fs af='Ora,adj,any,any,,any,,'>
+56	cunAva		<fs af='cunAva,n,m,sg,3,d,0,0'>|<fs af='cunAva,n,m,pl,3,d,0,0'>|<fs af='cunAva,n,m,sg,3,o,0,0'>
+57	cinha		<fs af='cinha,n,m,sg,3,d,0,0'>|<fs af='cinha,n,m,pl,3,d,0,0'>|<fs af='cinha,n,m,sg,3,o,0,0'>
+58	ko		<fs af='ko,psp,,,,,,'>
+59	lekara		<fs af='le,v,any,any,any,,kara,kara'>
+60	asahamawi		<fs af='asahamawi,n,f,sg,3,d,0,0'>|<fs af='asahamawi,n,f,sg,3,o,0,0'>
+61	ke		<fs af='kA,psp,m,sg,,o,kA,kA'>|<fs af='kA,psp,m,pl,,d,kA,kA'>|<fs af='kA,psp,m,pl,,o,kA,kA'>
+62	bIca		<fs af='bIca,n,m,sg,3,d,0,0'>|<fs af='bIca,n,m,pl,3,d,0,0'>|<fs af='bIca,n,m,sg,3,o,0,0'>|<fs af='bIca,adv,,,,,,'>|<fs af='bIca,psp,,,,,,'>
+63	liyA		<fs af='le,v,m,sg,any,,yA,yA'>
+64	gayA		<fs af='jA,v,m,sg,any,,yA1,yA1'>
+65	yaha		<fs af='yaha,pn,any,sg,3,d,0,0'>
+66	nirNaya		<fs af='nirNaya,n,m,sg,3,d,0,0'>|<fs af='nirNaya,n,m,pl,3,d,0,0'>|<fs af='nirNaya,n,m,sg,3,o,0,0'>
+67	raNanIwika		<fs af='raNanIwika,n,m,sg,3,d,0,0'>|<fs af='raNanIwika,n,m,pl,3,d,0,0'>|<fs af='raNanIwika,n,m,sg,3,o,0,0'>|<fs af='raNanIwika,adj,any,any,,any,,'>
+68	kaxama		<fs af='kaxama,n,m,sg,3,d,0,0'>|<fs af='kaxama,n,m,pl,3,d,0,0'>|<fs af='kaxama,n,m,sg,3,o,0,0'>
+69	mAnA		<fs af='mAna,v,m,sg,any,,yA,yA'>
+70	jA		<fs af='jA,n,f,sg,3,d,0,0'>|<fs af='jA,n,f,sg,3,o,0,0'>|<fs af='jA,v,any,any,any,,0,0'>
+71	rahA		<fs af='raha,v,m,sg,any,,yA,yA'>
+72	hE		<fs af='hE,v,any,sg,2,,hE,hE'>|<fs af='hE,v,any,sg,3,,hE,hE'>
+73	.		<fs af='.,punc,,,,,,'>
