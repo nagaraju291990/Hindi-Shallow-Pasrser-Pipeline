@@ -114,6 +114,9 @@ def ssf_to_final_format(data, cb_tags, fileno=1):
         case = cols[7]
         root = cols[-2]
         vib = cols[-1]
+        # To fix N_NNP issue decision taken by Dipti mam to convert all N_NNP to N_NN 
+        if(re.search(r'N_NNP', pos)):
+            pos = "N_NN"
 
         fs = f"{root},{lcat},{gend},{numb},{pers},{case},{vib},{vib}"
 
