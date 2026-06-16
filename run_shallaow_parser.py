@@ -4,7 +4,7 @@ import re
 import os
 import torch
 import shutil
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModelForTokenClassification
 from peft import PeftModel, PeftConfig
 
 # -------- CB MODEL --------
@@ -23,6 +23,55 @@ def load_cb_model(model_path, hf_token):
         tokenizer.pad_token = tokenizer.eos_token
 
     return model, tokenizer
+
+
+# -------- NER MODEL --------
+def load_ner_model(model_path):
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
+    model = AutoModelForTokenClassification.from_pretrained(model_path)
+    model.eval()
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    model.to(device)
+    return model, tokenizer, device
+
+
+def predict_conll(text, model, tokenizer, device):
+    id2label = model.config.id2label
+
+    inputs = tokenizer(
+        text,
+        return_tensors="pt",
+        truncation=True,
+        max_length=128
+    )
+    inputs = {k: v.to(device) for k, v in inputs.items()}
+
+    with torch.no_grad():
+        outputs = model(**inputs)
+
+    predictions = torch.argmax(outputs.logits, dim=2)[0].cpu().numpy()
+    tokens = tokenizer.convert_ids_to_tokens(inputs['input_ids'][0])
+
+    results = []
+    current_word = ""
+    current_tag = None
+
+    for token, pred in zip(tokens, predictions):
+        if token in ['[CLS]', '[SEP]', '[PAD]', '<s>', '</s>', '<pad>']:
+            continue
+
+        if token.startswith('##'):
+            current_word += token[2:]
+        else:
+            if current_word:
+                results.append((current_word, id2label[current_tag]))
+            current_word = token
+            current_tag = pred
+
+    if current_word:
+        results.append((current_word, id2label[current_tag]))
+
+    return results
 
 
 def get_cb_annotation(model, tokenizer, raw_sentence):
@@ -89,11 +138,13 @@ def parse_cb_to_boundaries(cb_output, tokens):
                 boundary_tags[i+len(clause_tokens)-1].append(f"{{/{clause_type}}}")
 
     return boundary_tags
-def ssf_to_final_format(data, cb_tags, fileno=1):
+
+def ssf_to_final_format(data, cb_tags, ner_tags, fileno=1):
     output = []
     sentno = 0
     token_id = 0
     idx = 0
+    ner_idx = 0
 
     for entry in data:
         if entry is None:
@@ -121,12 +172,17 @@ def ssf_to_final_format(data, cb_tags, fileno=1):
         fs = f"{root},{lcat},{gend},{numb},{pers},{case},{vib},{vib}"
 
         cb = "".join(cb_tags[idx]) if idx < len(cb_tags) else "O"
+        ner = (ner_tags[ner_idx]
+            if ner_idx < len(ner_tags)
+            else "O"
+        )
 
-        line = f"{fileno}\t{sentno}\t{token_id}\t{token}\t{pos}\t{chunk}\t{fs}\tO\t{cb}"
+        line = f"{fileno}\t{sentno}\t{token_id}\t{token}\t{pos}\t{chunk}\t{fs}\t{ner}\t{cb}"
 
         output.append(line)
 
         token_id += 1
+        ner_idx += 1
         idx += 1
 
     return "\n".join(output)
@@ -303,7 +359,7 @@ def write_output(data, outfile):
 
 
 # -------- Process One File --------
-def process_file(input_file, output_file, cb_model, cb_tokenizer):
+def process_file(input_file, output_file, cb_model, cb_tokenizer, ner_model, ner_tokenizer, ner_device):
     print(f"▶ Processing: {input_file}")
 
     data, words = read_step1(input_file)
@@ -334,8 +390,25 @@ def process_file(input_file, output_file, cb_model, cb_tokenizer):
 
     # -------- CB --------
     all_cb_tags = []
+    all_ner_tags = []
     for sent in sentences:
         sentence_text = " ".join(sent)
+        #NER
+        ner_results = predict_conll(
+            sentence_text,
+            ner_model,
+            ner_tokenizer,
+            ner_device
+        )
+
+        sent_ner_tags = [
+            tag
+            for _, tag in ner_results
+        ]
+
+        all_ner_tags.extend(sent_ner_tags)
+
+        #CB
         clean_text = sentence_text.strip()
         clean_text = re.sub(r'^\\s*', '', clean_text).strip()
         # text_for_cb = re.sub(r' +?\.( )+?$', '', clean_text)
@@ -348,7 +421,7 @@ def process_file(input_file, output_file, cb_model, cb_tokenizer):
 
     # -------- Final format --------
     # print(all_cb_tags)
-    final_output = ssf_to_final_format(merged, all_cb_tags)
+    final_output = ssf_to_final_format(merged, all_cb_tags, all_ner_tags)
 
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(final_output)
@@ -373,11 +446,28 @@ if __name__ == "__main__":
     # recreate output folder
     os.makedirs(output_folder, exist_ok=True)
 
+    SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+
     HF_TOKEN = "HF_TOKEN"
-    CB_MODEL_PATH = "./cb_hindi_model/model"
+    # CB_MODEL_PATH = "./cb_hindi_model/model"
+    CB_MODEL_PATH = os.path.join(
+        SCRIPT_DIR,
+        "cb_hindi_model",
+        "model"
+    )
 
     print("Loading CB model...")
     cb_model, cb_tokenizer = load_cb_model(CB_MODEL_PATH, HF_TOKEN)
+
+    # NER_MODEL_PATH = "./ner/model/hindi-ner-muril"
+    NER_MODEL_PATH = os.path.join(
+        SCRIPT_DIR,
+        "ner",
+        "model",
+        "hindi-ner-muril"
+    )
+
+    ner_model, ner_tokenizer, ner_device = load_ner_model(NER_MODEL_PATH)
 
     print("▶ Running Shallow Parser on Folder...")
     run_step1(input_folder)
@@ -399,7 +489,7 @@ if __name__ == "__main__":
         output_path = os.path.join(output_folder, output_file)
 
         # process_file(input_path, output_path)
-        process_file(input_path, output_path, cb_model, cb_tokenizer)
+        process_file(input_path, output_path, cb_model, cb_tokenizer, ner_model, ner_tokenizer, ner_device)
 
     print("✅ Done (output saved in given output directory)")
 
